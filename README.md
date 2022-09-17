@@ -4,4 +4,4 @@
 Захотелось сделать по ней поисковик, начал с дизайна и UML(ни то ни то лучше не смотреть, если глаза дороги)
 
 Miro доска(на момент коммита даже не начал ее): https://miro.com/app/board/uXjVPVp-8yM=/?share_link_id=342719788463
-Figma(Ахахахаха, я кодер, а не дезигнер)
+Figma(Ахахахаха, я кодер, а не дезигнер) https://www.figma.com/file/WmHnsm7HucRixB25voQmi5/GOTapi?node-id=0%3A1
