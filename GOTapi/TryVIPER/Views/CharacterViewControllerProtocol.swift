@@ -7,6 +7,8 @@
 
 import Foundation
 
-protocol CharacterViewControllerProtocol {
+protocol CharacterViewControllerProtocol: AnyObject {
+    var presenter: CharacterPresenterProtocol! { get set }
     
+    func setupView(listOfNames: Character)
 }

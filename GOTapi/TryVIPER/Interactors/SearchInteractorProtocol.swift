@@ -8,5 +8,7 @@
 import Foundation
 
 protocol SearchInteractorProtocol{
+    var nameList: [String] {get}
     
+    func searchResult(name: String) -> [String]
 }

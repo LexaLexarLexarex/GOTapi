@@ -8,5 +8,8 @@
 import Foundation
 
 protocol CharacterPresenterProtocol {
+    var router: CharacterRouterProtocol! { get set }
     
+    func configureView()
+    func backButtonClicked()
 }

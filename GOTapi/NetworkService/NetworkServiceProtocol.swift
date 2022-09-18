@@ -9,4 +9,6 @@ import Foundation
 
 protocol NetworkServiceProtocol {
     func foundCharacter(with name: String) -> Character
+    
+    func charactersList() -> [Character]
 }

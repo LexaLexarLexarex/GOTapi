@@ -7,6 +7,12 @@
 
 import Foundation
 
-protocol SearchViewControllerProtocol {
+protocol SearchViewControllerProtocol: AnyObject {
+    var presenter: SearchPresenterProtocol! { get set }
+    
+    func setupView(listOfNames: [String])
+    
+    func reloadData(listOfNames: [String])
+    
     
 }

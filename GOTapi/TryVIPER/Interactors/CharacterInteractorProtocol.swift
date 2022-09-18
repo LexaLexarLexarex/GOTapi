@@ -8,5 +8,5 @@
 import Foundation
 
 protocol CharacterInteractorProtocol{
-    
+    func searchCharacter(name: String) -> Character
 }

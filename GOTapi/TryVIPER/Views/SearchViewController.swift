@@ -8,12 +8,25 @@
 import UIKit
 
 class SearchViewController: UIViewController, SearchViewControllerProtocol {
+    var presenter: SearchPresenterProtocol!
+    
+    var configurator: SearchConfiguratorProtocol = SearchConfigurator()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
+        configurator.configure(with: self)
+        presenter.configureView()
     }
 
 
+    func setupView(listOfNames: [String]) {
+        
+    }
+    
+    func reloadData(listOfNames: [String]) {
+        
+    }
 }
 

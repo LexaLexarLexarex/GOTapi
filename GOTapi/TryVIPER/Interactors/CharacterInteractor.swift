@@ -7,6 +7,18 @@
 
 import Foundation
 
-class CharacterInteracor: CharacterInteractorProtocol {
+class CharacterInteractor: CharacterInteractorProtocol {
+    var presenter: CharacterPresenterProtocol
+    
+    init(presenter: CharacterPresenterProtocol){
+        self.presenter = presenter
+    }
+    
+    
+    func searchCharacter(name: String) -> Character {
+        
+        return NetworkService().foundCharacter(with: name)
+    }
+    
     
 }

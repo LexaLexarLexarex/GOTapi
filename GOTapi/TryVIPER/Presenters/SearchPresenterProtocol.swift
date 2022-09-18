@@ -8,5 +8,8 @@
 import Foundation
 
 protocol SearchPresenterProtocol {
-    
+    var router: SearchRouterProtocol! { get set }
+    func configureView()
+    func searchButtonClicked(name: String)
+    func nameButtonClicked(name: String)
 }

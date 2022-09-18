@@ -8,5 +8,5 @@
 import Foundation
 
 protocol SearchConfiguratorProtocol {
-    
+    func configure(with view: SearchViewController)
 }
